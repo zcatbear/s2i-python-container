@@ -2,7 +2,7 @@
 # applications.
 FROM centos/s2i-base-centos7
 
-EXPOSE 8080
+EXPOSE 5000
 
 ENV PYTHON_VERSION=3.6 \
     PATH=$HOME/.local/bin/:$PATH \
